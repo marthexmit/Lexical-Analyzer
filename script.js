@@ -25,7 +25,7 @@ var validChar = function (e) {
 textAreaValidated.addEventListener('keydown', validChar, true);
 //end//
 
-//Faz a validação de entrada//
+//Faz o backtracking//
 function charValidate(charSelect, showRow) {
     var backTracking = false;
     var previousStateCodeForAnimate = this.stateActual;
